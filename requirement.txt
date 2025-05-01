@@ -1,8 +1,8 @@
-ultralytics
 streamlit
+ultralytics==8.1.37
+torch==2.2.1
 opencv-python
 Pillow
 scipy
 pandas
 scikit-learn
-torch
