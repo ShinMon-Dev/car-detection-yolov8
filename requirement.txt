@@ -1,0 +1,8 @@
+streamlit
+ultralytics
+opencv-python
+Pillow
+scipy
+pandas
+scikit-learn
+torch
