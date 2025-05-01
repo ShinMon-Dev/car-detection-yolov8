@@ -1,4 +1,15 @@
 import streamlit as st
+
+try:
+    import torch
+    from ultralytics import YOLO
+    st.success("✅ Ultralytics & Torch loaded successfully!")
+except Exception as e:
+    st.error(f"❌ Error loading Ultralytics: {e}")
+
+
+
+import streamlit as st
 from PIL import Image
 from ultralytics import YOLO
 
