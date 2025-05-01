@@ -3,7 +3,7 @@ from PIL import Image
 from ultralytics import YOLO
 
 # Load the trained YOLO model
-MODEL_PATH = 'filtered_dataset/runs/detect/train/weights/best.pt'  
+MODEL_PATH = 'best.pt'  
 model = YOLO(MODEL_PATH)
 
 # Streamlit UI

@@ -1,5 +1,5 @@
-streamlit
 ultralytics
+streamlit
 opencv-python
 Pillow
 scipy

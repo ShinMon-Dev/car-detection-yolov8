@@ -1,2 +1,6 @@
-yolo_env/
+__pycache__/
+*.pyc
 filtered_dataset/
+yolo_env/
+runs/
+*.pt
